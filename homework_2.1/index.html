@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Instagram</title>
+</head>
+<body>
+	<header>
+		<h1 class="header_title">Instagram</h1>
+		<img class="logo" src="instagram-brands.svg" alt="иконка инстаграма" width="50">
+	</header>
+	<main>	
+		<form action="feed.html" method="post">
+
+			<fieldset>
+				<legend>Регистрация</legend>
+				<input type="text" name="name" placeholder="Введите Ваше имя">
+				<input type="email" placeholder="Введите E-mail" name="email" required>
+				<input type="password" placeholder="Введите пароль" name="password" minlength="8" required>
+				<input type="password" placeholder="Повторите пароль" name="password" minlength="8" required>
+				<label >Я согласен с обработкой персональный данных<input type="checkbox" required></label>
+				<input type="submit" value="Зарегистрироваться">
+			</fieldset>
+
+		</form>
+		
+		<a href="reg.html" target="_blank">Есть аккаунт? Войдите</a> 
+	</main>
+</body>
+</html>
