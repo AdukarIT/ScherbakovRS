@@ -9,3 +9,4 @@
 
 ## 5. Продвинутый HTML
 [Домашнее задание 5.1](https://github.com/AdukarIT/ScherbakovRS/tree/master/homework_2.1)
+[Домашнее задание 5.2](https://github.com/AdukarIT/ScherbakovRS/tree/master/homework_2.2)
