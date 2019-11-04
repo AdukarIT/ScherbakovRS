@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<nav class="menu">
+			<ul>
+				<li><a href="#">Бытовая техника</a>
+					<ul>
+						<li><a href="#">Стиральные машины</a></li>
+						<li><a href="#">Пылесос</a></li>
+						<li><a href="#">Швейные, вышивальные машины</a></li>
+						<li><a href="#">Утюги</a></li>
+						<li><a href="#">Электровеники</a></li>
+						<li><a href="#">Сушилки для обуви</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Техника для кухни</a>
+					<ul>
+						<li><a href="#">Холодильники</a></li>
+						<li><a href="#">Кухонные плиты</a></li>
+						<li><a href="#">Морозильники</a></li>
+						<li><a href="#">Настольные плиты</a></li>
+						<li><a href="#">Ростеры, мини-печи</a></li>
+						<li><a href="#">Вытяжки</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Компьютерная техника</a>
+					<ul>
+						<li><a href="#">Ноутбуки</a></li>
+						<li><a href="#">Планшеты</a></li>
+						<li><a href="#">Компьютеры, моноблоки</a></li>
+						<li><a href="#">Игровые приставки</a></li>
+						<li><a href="#">Серверное оборудование</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Корзина</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="order__container">
+		<form action="post" class="order__form">
+			<label>Фамилия: <input type="text" required></label>
+			<label>Имя: <input type="text" required></label>
+			<label>Номер: <input type="tel" required></label>
+			<label>Email: <input type="email" required></label>
+
+			<div class="switch">
+            	<div class="info">Выберите способ доставки:</div>
+              	<input class="pickup" type="radio" name="delivery method" id="switch_1" required>
+              	<label for="switch_1">Самовывоз со склада по адресу</label>
+              	<label for="pickup_adress"><span class="pickup_adress-text">Немига 5</span></label>
+              	<input type="checkbox" id="pickup_adress" class="pickup_adress">
+              	<iframe src="https://yandex.by/map-widget/v1/-/CGHLvG7l" width="300" height="300" frameborder="1" allowfullscreen="true"></iframe>
+				<br>
+              	<input class="delivery" type="radio" name="delivery method" id="switch_2" required>
+              	<label for="switch_2">Курьером по Минску</label>
+            	<div class="address">
+            		Адрес доставки:
+            		<input type="text" name="address" placeholder="Введите адрес доставки">
+            	</div> 
+          	</div>
+		</form>
+	</main>
+	<footer>
+		<nav class="footer__nav">
+			<ul>
+				<li><p>время работы:</p></li>
+				<li><p>адрес офиса:</p></li>
+				<li><a href="tel:+375255555555">+375255555555</a></li>
+				<li><a href="skype:#">Наш скайп</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

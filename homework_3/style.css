@@ -1,0 +1,124 @@
+body {
+	font-family: 'Cuprum', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.menu * {
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu > ul {
+	display: flex;
+	justify-content: center;
+}
+
+.menu > ul li a {
+	display: block;
+	background-color: #ececed;
+	padding: 15px 30px;
+	font-size: 14px;
+	color: #454547;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu > ul li {
+	position: relative;
+	border-left: 1px solid #b2b3b5;
+}
+
+.menu > ul li:last-child {
+	border-right: 1px solid #b2b3b5;
+}
+
+.menu li a:hover {
+	background-color: #454547;
+	color: #ffffff;
+	transition: .3s;
+}
+
+.menu li ul {
+	position: absolute;
+	display: none;
+	min-width: 200px;
+}
+
+.menu li > ul li {
+	border: 1px solid #c4c5ca;
+}
+
+.menu li > ul li a {
+	padding: 10px;
+	text-transform: uppercase;
+	background-color: #e4e4e5;
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+.order__container {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #c4c5ca;
+	padding: 30px 0;
+}
+
+input {
+	display: block;
+	border: 1px solid #c4c5ca;
+}
+
+input[type="radio"] {
+	display: inline-block;
+}
+
+.delivery--adress {
+	display: none;
+}
+
+.delivery:checked ~ .delivery--adress {
+	display: block;
+}
+
+iframe {
+    display: none;
+}
+
+#pickup_adress:checked ~ iframe {
+    display: block;
+}
+
+
+#switch_2:checked ~ .address {
+    display: block;
+}
+
+.address {
+    display: none;
+    margin: 5px;
+}
+
+.info {
+    display: block;
+    padding: 10px;
+}
+
+.pickup_adress {
+	display: none;
+}
+
+.pickup_adress-text {
+	color: #00F;
+	text-decoration: underline dotted;
+}
+
+.footer__nav ul {
+	list-style: none;
+}
+
