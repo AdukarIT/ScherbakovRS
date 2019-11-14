@@ -1,0 +1,16 @@
+.switcher {
+	display: none;
+}
+
+.custom {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: url(checkbox.png) no-repeat;
+	background-size: 200px;
+	background-position: right;
+}
+
+.switcher:checked + .custom {
+	background-position: left;
+}

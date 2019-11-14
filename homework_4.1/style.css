@@ -1,0 +1,5 @@
+.beach {
+	width: 100vw;
+	height: 100vh;
+	background:  url(sun.png) no-repeat top left/25%, url(sea.jpg) no-repeat bottom left/100%, url(sky.jpg);
+}

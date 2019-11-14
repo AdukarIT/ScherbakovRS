@@ -1,0 +1,17 @@
+.container {
+	font-size: 50px;
+	text-decoration: none;
+	color: #555;
+}
+
+.container:hover {
+	color: #00f;
+}
+
+.container:visited {
+	color: #f00;
+}
+
+.container:visited:hover {
+	color: rgba(0,255, 0, 0.3);
+}

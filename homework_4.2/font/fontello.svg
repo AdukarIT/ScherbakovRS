@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart-1" unicode="&#xe800;" d="M790 644q70-64 70-156t-70-158l-360-330-360 330q-70 66-70 158t70 156q62 58 151 58t153-58l56-52 58 52q62 58 150 58t152-58z" horiz-adv-x="860" />
+
+<glyph glyph-name="heart" unicode="&#xe801;" d="M500-79q-14 0-25 10l-348 336q-5 5-15 15t-31 37-38 54-30 67-13 77q0 123 71 192t196 70q34 0 70-12t67-33 54-38 42-38q20 20 42 38t54 38 67 33 70 12q125 0 196-70t71-192q0-123-128-251l-347-335q-10-10-25-10z" horiz-adv-x="1000" />
+
+<glyph glyph-name="heart-filled" unicode="&#xe802;" d="M456 487q0 95-67 161t-161 67-162-67-66-161q0-137 91-229 37-36 128-104t164-118l73-50q282 190 364 272 91 92 91 229 0 95-66 161t-161 67-161-67-67-161z" horiz-adv-x="911" />
+
+<glyph glyph-name="heart-2" unicode="&#xe803;" d="M464 633q78 108 200 108 102 0 175-73t72-176l0-20-447-513-446 513 0 20q0 102 73 175t175 74q120 0 198-108z" horiz-adv-x="928" />
+
+<glyph glyph-name="heart-3" unicode="&#xe804;" d="M380 18l-285 283c-66 65-95 137-95 200 0 109 73 182 183 182 102 0 137-48 197-117 60 69 95 117 198 117 110 0 182-73 182-182 0-63-29-135-95-200z" horiz-adv-x="760" />
+
+<glyph glyph-name="heart-4" unicode="&#xe805;" d="M0 530q0 103 73 176t177 73q70 0 128-34t91-93q32 58 90 93t128 34q103 0 177-73t73-176q0-95-63-166l-343-403q-25-31-62-31t-63 31l-343 403q-63 71-63 166z" horiz-adv-x="937.5" />
+
+<glyph glyph-name="heart-5" unicode="&#xe806;" d="M1 532q7 111 75 183 94 80 212 70t190-98q38 49 92 79 113 43 217 3t150-140q30-106 10-199t-78-174q-68-94-174-184-53-49-124-103t-93-57q-13 2-28 12t-35 25-24 20q-264 199-348 357-49 96-42 206z" horiz-adv-x="955" />
+
+<glyph glyph-name="heart-6" unicode="&#xe807;" d="M775 849q126 0 207-80t81-207v-60q0-285-532-653-531 367-531 653v60q0 127 81 207t206 80q81 0 134-30t110-99q58 68 111 99t133 30z" horiz-adv-x="1063" />
+</font>
+</defs>
+</svg>
