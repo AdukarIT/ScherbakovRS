@@ -1,0 +1,24 @@
+.container {
+	position: relative;
+	width: 600px;
+	height: 100px;
+	border: 1px solid #000;
+}
+
+.switcher__checkbox {
+	display: none;
+}
+
+.switcher__img {
+	width: 100px;
+}
+
+.switcher__button {
+	position: absolute;
+	transition: all 1.5s ease-out;
+	
+}
+
+.switcher__checkbox:checked + .switcher__button {
+	transform: translateX(502px);
+}

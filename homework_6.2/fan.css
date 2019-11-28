@@ -1,0 +1,12 @@
+.fan {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 100px;
+
+	transition: transform 4s ease-out; 
+}
+
+.fan:hover {
+	transform: rotate(1080deg);
+}

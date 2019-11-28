@@ -1,0 +1,39 @@
+@keyframes sub-zero {
+	0% {
+		background-position: 0 0;
+	}
+
+	20% {
+		background-position: -66px 0;
+	}
+
+	40% {
+		background-position: -132px 0;
+	}
+
+	60% {
+		background-position: -198px 0;
+	}
+
+	80% {
+		background-position: -264px 0;
+	}
+
+	100% {
+		background-position: -330px 0;
+	}
+}
+
+
+.sprite {
+	width: 66px;
+	height: 135px;
+	background-image: url(sprite.jpg);
+}
+
+.sprite:hover {
+	animation: sub-zero .3s linear infinite;
+	animation-delay: .2s;
+	animation-timing-function: steps(1);
+	animation-direction: alternate;
+}
