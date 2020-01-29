@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+}
+
+.header {
+	height: 42px;
+	background-color: #4a76a8;
+}
+
+.header-container {
+	display: flex;
+	width: 990px;
+
+	margin: 0 auto;
+}
+
+.header__logo {
+	padding: 11px 0;
+	width: 165px;
+}
+
+.header__img {
+	position: relative;
+}
+
+.header__img:active {
+	top: 1px;
+}
+
+.search-string {
+
+	margin: 7px 0;
+	padding: 5px 5px 5px 19px;
+
+	width: 230px;
+	height: 28px;
+	line-height: 16px;
+
+	border: 0;
+	border-left: 8px solid transparent;
+	border-radius: 14px;
+	outline: none;
+
+	background: #224b7a url('images/svg_icons/loupe.svg') no-repeat;
+	background-position: left 8px;
+}
+
+.search-string:focus {
+	background-color: #fff;
+	color: #000;
+}
+
+.header__notify {
+	background: url('images/svg_icons/notify.svg') no-repeat;
+}
+
+.header__music {
+	background: url('images/svg_icons/music.svg') no-repeat;
+}
+
+/* MAIN */
+
+.main__body {
+	height: 100vh;
+	background-color: #edeef0;
+}
+
+.main__container {
+	display: flex;
+	justify-content: space-between;
+	/*flex-direction: column;*/
+
+	width: 990px;
+	margin: 0 auto;
+	padding-top: 16px;
+}
+
+
+.nav__list {
+	list-style: none;
+	padding: 0;
+}
+
+.nav__list:after {
+	content: "";
+	display: block;
+	width: 155px;
+	border-bottom: 0.5px solid rgba(40, 84, 115, 0.4);
+	margin: 10px 5px;
+}
+
+.nav__item {
+	display: block;
+	width: 157px;
+	height: 28px;
+
+	font-family: "Roboto" , sans-serif;
+	font-size: 13px;
+	line-height: 28px;
+
+}
+
+.nav__item:hover {
+	background-color: #e1e5eb;
+}
+
+.mypage {
+
+}
+
+.link {
+	text-decoration: none;
+	color: #285473;
+	padding-left: 20px;
+}
+
+.link:visited {
+	color: #285473;
+}
+
+.menu__list {
+}
+
+
