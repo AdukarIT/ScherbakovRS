@@ -90,3 +90,17 @@
 //     sharp += '\n';
 // }
 // console.log(sharp);
+
+
+	// TASK 6 ADDED //
+
+	let a = 0;
+	let b = 1; 
+	let c;
+	for (i = 0; i < 15; i++) {
+	c = a + b; 
+	a = b; 
+	b = c; 
+	console.log(c); 
+	}
+
