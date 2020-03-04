@@ -21,7 +21,7 @@
 [Домашнее задание 10.4](https://github.com/AdukarIT/ScherbakovRS/tree/master/homework_4.4)
 
 ## 20. Операторы. Циклы
-[Практика]()
+[Практика](https://github.com/AdukarIT/ScherbakovRS/blob/master/JavaScript/practice_0.js)
 [Домашнее задание](https://github.com/AdukarIT/ScherbakovRS/blob/master/JavaScript/script1.js)
 
 ## 21. Функции

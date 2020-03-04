@@ -52,9 +52,40 @@ function getRandomArray(len) {
 // 		console.log(arr[min], arr[next]);
 // }
 
-// minimum();
+// minimum();	
 
-		// TASK 5 //     //NEW
+		// TASK 4 // 	//NEW
+
+// function lessthen0_3() {
+// 	let arr = getRandomArray(+prompt());
+// 	let count = 0;
+// 	for (let i = 0; i < 15; i++) {
+// 		if (arr[i] < 0.3)
+// 			count++;
+// 	}
+// 	console.log(count);
+// 	console.log(arr);
+//     for (let j = arr.length - 1; j > 0; j--) {
+//     	for (let i = 0; i < j; i++) {
+//       		if (arr[i] < 0.3) {
+//         		let temp = arr[i];
+//         		arr[i] = arr[i + 1];
+//         		arr[i + 1] = temp;
+//       		}
+//     	}
+// 	}
+// 	for (let j = 0; j < count; j++) {
+// 		arr.pop();
+// 	}
+// 	for (let j = 0; j < count; j++) {
+// 		arr.push(0);
+// 	}
+// 	console.log(arr);
+// }
+
+// lessthen0_3()
+
+		// TASK 5 //
 
 // function sum() {
 // 	let arr1 = getRandomArray(5);
@@ -72,7 +103,7 @@ function getRandomArray(len) {
 
 // sum();
 
-		// TASK 6 // 	//NEW
+		// TASK 6 //
 
 // function bubble() {
 // 	let arr = getRandomArray(+prompt());
@@ -91,7 +122,7 @@ function getRandomArray(len) {
 
 // bubble();
 
-		// TASK 7 //	//NEW
+		// TASK 7 //
 
 // function task7() {
 // 	let arr = getRandomArray(+prompt());
@@ -106,4 +137,7 @@ function getRandomArray(len) {
 
 // task7();
 
-		// TASK 9 // 	//NEW
+
+
+
+
