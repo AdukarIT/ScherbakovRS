@@ -29,3 +29,23 @@
 // console.log(cylinder.volume());
 
 	
+	// TASK 4 //
+
+// let penguin = {
+// 	name: 'Skipper',
+// 	origin: 'Madagaskar',
+// 	creator: 'Mark Burton'
+// }
+
+// penguin.canFly = false;
+// penguin.sayHello = function() {
+// 	console.log('Hi, I\'m ' + this.name);  
+// }
+// penguin.fly = function() {
+// 	if (this.canFly == true)
+// 		console.log('I can fly');
+// 	else console.log('I can\'t fly');
+// }
+
+// penguin.sayHello();
+// penguin.fly();
